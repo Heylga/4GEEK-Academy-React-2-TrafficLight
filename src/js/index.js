@@ -11,3 +11,5 @@
 
 // //render your react application
 // ReactDOM.render(<Main />, document.querySelector("#app"));
+
+console.log("Hello World!");

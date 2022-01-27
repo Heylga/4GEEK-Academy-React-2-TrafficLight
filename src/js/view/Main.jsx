@@ -13,23 +13,11 @@ const Main = () => {
     return (
         <>
             <div>
-                <div className="Container flexbox">
-                    <div className="greenlight">fdhgfh</div>
+            <Circle></Circle>
+                <div className="light">
+                    <div className="greenlight"></div>
                     <div className="orangelight"></div>
                     <div className="redlight"></div>
-
-                    <h1 className="text-center mt-5">Hello Rigo!</h1>
-                    <p>
-                        <img src={rigoImage} />
-                    </p>
-                    <a href="#" className="btn btn-success">
-                        If you see this green button... bootstrap is working...
-                    </a>
-                    <p>
-                        Made by{" "}
-                        <a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-                        love!
-                    </p>
 
                 </div>
             </div>
