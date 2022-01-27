@@ -7,17 +7,18 @@ import Headerstick from "../component/Headerstick.jsx";
 import "../../styles/Main.css";
 
 const Main = () => {
-	return (
-		<>
-			<div>
-				<div className="Light">
-					<div className="greenlight"></div>
-					<div className="orangelight"></div>
-					<div className="redlight"></div>
-				</div>
-			</div>
-		</>
-	);
+    return (
+        <>
+            <div class="body">
+                {/* <Circle></Circle> */}
+                <div className="Light">
+                    <div className="greenlight"></div>
+                    <div className="orangelight"></div>
+                    <div className="redlight"></div>
+                </div>
+            </div>
+        </>
+    );
 };
 
 export default Main;

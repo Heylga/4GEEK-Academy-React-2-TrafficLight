@@ -9,7 +9,9 @@ const Circle = () => {
 			<button
 				className="oranglight"
 				onClick={setLight("orangelight")}></button>
-			{/* <button className="redlight" onClick={setLight("redlight")}></button> */}
+			<button
+				className="redlight"
+				onClick={setLight("redlight")}></button>
 		</>
 	);
 };
