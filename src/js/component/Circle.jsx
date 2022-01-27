@@ -1,16 +1,14 @@
+import React from "react";
 import React, { useState } from 'react';
 import "../../styles/Circle.css";
 
 const Circle = () => {
-    const [traffic, color] = useState("greenlight");
+    const [traffic, color] = useState("");
     return (
         <>
-            <button onClick={color("orangelight")}>
-
-            </button><button onClick={color("redlight")}>
-
-            </button>
-
+            <button className='greenlight' onClick={color("orangelight")}></button>
+            <button className='oranglight' onClick={color("orangelight")}></button>
+            <button className="redlight" onClick={color("redlight")}></button>
         </>
     );
 };
