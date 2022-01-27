@@ -5,13 +5,9 @@ const Circle = () => {
 	const [light, setLight] = useState("");
 	return (
 		<>
-			<button className="" onClick={setLight("orangelight")}></button>
-			<button
-				className="oranglight"
-				onClick={setLight("orangelight")}></button>
-			<button
-				className="redlight"
-				onClick={setLight("redlight")}></button>
+			<button className="greenlight"></button>
+			<button className="orangelight"></button>
+			<button className="redlight"></button>
 		</>
 	);
 };
