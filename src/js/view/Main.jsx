@@ -10,7 +10,6 @@ const Main = () => {
 	return (
 		<>
 			<div>
-				{/* <Circle></Circle> */}
 				<div className="Light">
 					<div className="greenlight"></div>
 					<div className="orangelight"></div>
