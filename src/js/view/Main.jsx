@@ -1,16 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import React, { useState } from 'react';
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-// include your styles into the webpack bundle
+
+import Circle from "../component/Circle.jsx"
+import Headerstick from "../component/Headerstick.jsx"
+
 import "../styles/Main.css";
-//import your own components
 import Main from "./component/Main.jsx";
 
 
 
-//create your first component
 const Main = () => {
     return (
         <div>
