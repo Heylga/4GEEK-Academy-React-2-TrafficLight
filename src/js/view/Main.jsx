@@ -9,12 +9,10 @@ import "../../styles/Main.css";
 const Main = () => {
 	return (
 		<>
-			<Circle></Circle>
-			{/* <div className="Light">
-					<div className="greenlight"></div>
-					<div className="orangelight"></div>
-					<div className="redlight"></div>
-				</div> */}
+			<div className="Light">
+				{" "}
+				<Circle></Circle>
+			</div>
 		</>
 	);
 };
